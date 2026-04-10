@@ -1,0 +1,16 @@
+{
+  "name": "lmgpr",
+  "version": "1.0.0",
+  "description": "Marketing website for [LMG PR](https://www.lmgpr.com), a strategic public relations firm specializing in launches for early-stage and bold tech companies. 500+ company launches, 1M+ media articles, 23+ years in the industry.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "tailwindcss -i src/input.css -o css/styles.css --minify",
+    "watch:css": "tailwindcss -i src/input.css -o css/styles.css --minify --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
